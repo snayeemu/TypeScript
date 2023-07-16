@@ -237,3 +237,10 @@ const testM2: IPostEvenBetter<IAuthor> = {
   desc: "post desc",
   extra: [{ id: 1, userName: "john" }],
 };
+
+const testM3: IPostEvenBetter<ICategory> = {
+  id: 1,
+  title: "post title",
+  desc: "post desc",
+  extra: [{ id: 1, title: "john" }],
+};
